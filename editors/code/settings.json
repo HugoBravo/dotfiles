@@ -1,0 +1,197 @@
+{
+  "explorer.confirmDelete": false,
+  "terminal.integrated.rendererType": "dom",
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.excludeglobs": ["**/node_modules/**", "**/dist/**"],
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "color-highlight.languages": ["*"],
+  "scm.alwaysShowRepositories": true,
+  "editor.fontFamily": "'IBM Plex Mono','Fira Code iScript', 'Fira Code', 'Hack Nerd Font Mono'",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword.operator.new",
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js" //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+
+          "entity.name.function",
+          "invalid",
+          "keyword.operator",
+          // new
+
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "extensions.ignoreRecommendations": false,
+  "workbench.editorAssociations": {
+    "*.png": "imagePreview.previewEditor"
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "angular.experimental-ivy": true,
+  "editor.fontSize": 13,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.inlineSuggest.enabled": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "intelephense.format.braces": "k&r",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": [
+    "Acceso",
+    "actualizada",
+    "actualizado",
+    "actualizar",
+    "Agregar",
+    "anulada",
+    "Anulado",
+    "Anular",
+    "asociada",
+    "asociadas",
+    "asociar",
+    "Asunto",
+    "autorizado",
+    "BLOQUEADA",
+    "bloquear",
+    "Buscar",
+    "busqueda",
+    "caja",
+    "cancelada",
+    "cerrado",
+    "cerrar",
+    "CIERRE",
+    "Confirma",
+    "Confirmación",
+    "contraseña",
+    "correctamente",
+    "creado",
+    "datetime",
+    "desbloquear",
+    "DESCAGAR",
+    "Descripción",
+    "Desde",
+    "desvinculada",
+    "desvincular",
+    "desvinculará",
+    "Detalles",
+    "Diario",
+    "EDITAR",
+    "EGRESOS",
+    "Empresa",
+    "Empresas",
+    "ESPERE",
+    "existen",
+    "Fecha",
+    "GENERAR",
+    "gestion",
+    "Gestión",
+    "habilitada",
+    "Habilitado",
+    "Habilitar",
+    "hostalcampobase",
+    "Impagos",
+    "ingresada",
+    "ingresar",
+    "INGRESOS",
+    "Laravel",
+    "llamadev",
+    "mensaje",
+    "Mostrar",
+    "nombre",
+    "Nulos",
+    "OPCIONES",
+    "Operación",
+    "operadores",
+    "Pagar",
+    "paxs",
+    "Pendientes",
+    "Próximos",
+    "Pruebas",
+    "Recipiente",
+    "Respuesta",
+    "Respuestas",
+    "Selección",
+    "sqlerror",
+    "Sucursal",
+    "sucursales",
+    "tenance",
+    "TODOS",
+    "Usuario",
+    "USUARIOS"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.guides.bracketPairs": true
+}

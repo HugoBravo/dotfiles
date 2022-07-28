@@ -90,7 +90,7 @@
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
-  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.osxExec": "iTerm2.app",
   "angular.experimental-ivy": true,
   "editor.fontSize": 13,
   "liveServer.settings.CustomBrowser": "chrome",

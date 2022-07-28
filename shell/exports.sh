@@ -12,7 +12,9 @@ fi
 
 if [[ $__CFBundleIdentifier == "com.microsoft."* ]]; then
   export CODELY_THEME_MINIMAL=true
-  export CODELY_THEME_MODE=light
+  # export CODELY_THEME_MODE=light
+CODELY_THEME_STATUS_ICON_OK=${CODELY_THEME_STATUS_ICON_OK:-""}
+CODELY_THEME_STATUS_ICON_KO=${CODELY_THEME_STATUS_ICON_KO:-""}
 fi
 
 # ------------------------------------------------------------------------------

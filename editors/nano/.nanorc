@@ -1,0 +1,6 @@
+include "/usr/local/share/nanorc/*.nanorc"
+set linenumbers
+set mouse
+
+
+

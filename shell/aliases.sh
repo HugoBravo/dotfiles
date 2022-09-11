@@ -34,3 +34,5 @@ alias o.='open .'
 alias up='dot package update_all'
 
 alias cat='bat'
+
+alias wichSystem='python3 /usr/local/bin/wichSystem.py'

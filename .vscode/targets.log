@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Wed Jul 27 21:49:54 2022
+
+# Make data base, printed on Sun Sep 11 18:32:14 2022
 
 # Variables
 
@@ -56,7 +59,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.1mh11uixAF/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.NOEBMvaBfD/Listeners
 # environment
 CODELY_THEME_PWD_MODE = short
 # automatic
@@ -74,11 +77,12 @@ HOME = /Users/hugo
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/hugo/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+ 
+VSCODE_CODE_CACHE_PATH = /Users/hugo/Library/Application Support/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LOGNAME = hugo
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 NVM_CD_FLAGS = -q
 # environment
@@ -114,7 +118,7 @@ TMPDIR = /var/folders/d9/3ckz8yls7ljcmjlv9yvkp5jh0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/hugo/Library/Application Support/Code/1.69.2-main.sock
+VSCODE_IPC_HOOK = /Users/hugo/Library/Application Support/Code/1.71.0-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -126,7 +130,7 @@ MFLAGS = -Rrqp
 # environment
 NVM_DIR = /Users/hugo/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.4238615.4238621
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.8132113.8132119
 # environment
 DOTFILES_PATH = /Users/hugo/.dotfiles
 # automatic
@@ -158,7 +162,7 @@ FZF_DEFAULT_OPTS = --color=pointer:#ebdbb2,bg+:#3c3836,fg:#ebdbb2,fg+:#fbf1c7,hl
 # environment
 LANG = C
 # environment
-VSCODE_PID = 1086
+VSCODE_PID = 720
 # variable set hash-table stats:
 # Load=74/1024=7%, Rehash=0, Collisions=2/95=2%
 
@@ -168,9 +172,9 @@ VSCODE_PID = 1086
 
 # Directories
 
-# . (device 16777221, inode 562252): 17 files, no impossibilities.
+# . (device 16777221, inode 562252): 18 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -242,8 +246,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jul 27 21:49:54 2022
+# Finished Make data base on Sun Sep 11 18:32:14 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-

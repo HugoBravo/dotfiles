@@ -197,5 +197,6 @@
   "editor.guides.bracketPairs": true,
   "rapidapi.terminalLink.enabled": false,
   "workbench.sideBar.location": "right",
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1
 }
